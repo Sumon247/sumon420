@@ -1,0 +1,137 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Source+Sans+Pro:200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+/*header & Manu Css Start*/
+.hore-area-bg{background-image: url(../img/horo-img.jpg);}
+.hore-area-bg:after{background-image: url(../img/hero-shader.png);}
+.mainmanu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmanu li {
+    display: inline-block;
+}
+
+.mainmanu li a {
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo {
+    margin: 9px 0;
+}
+
+.hore-area-bg {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 770px;
+    color: #fff;
+    z-index: 1;
+    font-size: 20px;
+    background-position: center;
+}
+.hore-area-bg:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    content: "";
+    background-size: 100% 100%;
+    z-index: 2;
+}
+.hero-area {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    
+    z-index: 1;
+}
+
+.hero-area h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #0f355c;
+    z-index: -1;
+    opacity: .75;
+   
+}
+
+a.boxed-btn {
+    background: #6FED8D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #0F355C;
+    border: 1px solid #;
+}
+
+.hero-area p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+header.site-header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+header.site-header:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .4;
+}
+/*header & Manu Css End*/
