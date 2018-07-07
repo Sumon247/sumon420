@@ -1,0 +1,79 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 15px 0;
+    font-weight: 700;
+}
+h2{font-size:32px}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #575757;
+	
+}
+a:hover { text-decoration: none }
+section.section-padding{padding: 100px 0;}
+.container{}
+.row{}
+.col-md-12{}
+.section-title h2 {color:#222
+}
+.section-title {
+    text-align: center;
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.col-md-4{}
+
+.my1stblog-box-bg { background-position:center;
+					height:200px;
+					background-color:#ddd;
+					background-size: cover;
+					border:  2px solid #C02E0A;
+					
+					}
+.my1stblog-box-content{padding: 20px; border: 1px solid #F3F3F3;}
+.my1stblog:hover .my1stblog-box-content{border-color:#93707D;} 
+.blog-mata{font-size:14px;}
+.blog-mata span{padding-right:10px;}
+.blog-mata span:last-chaild{padding-right:0px;}
+.blog-mata i.fa{color:#D14524}
+.fa fa-user{}
+.fa fa-calendar{}
+
+.blog-readmore-btn {
+        background: #FF9800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+	 margin-top: 10px;}
+.blog-readmore-btn:hover{background:#222; color:#fff;}
+.my1stblog-box-bg-01{background-image: url(../img/my1stblog-1.jpg)}
+.my1stblog-box-bg-02{background-image: url(../img/my1stblog-2.jpg)}
+.my1stblog-box-bg-03{background-image: url(../img/my1stblog-3.jpg)}
