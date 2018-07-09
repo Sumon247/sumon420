@@ -1,0 +1,106 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.section-padding{
+	padding: 80px 0;
+}
+.fecature-1 .fecature-bg{	background-image: url(../img/bigstock-Team-leader-pointing-charts-an-126827279-1.jpg);}
+.fecature-2 .fecature-bg{	background-image: url(../img/brand-business-cellphone-204611.jpg);}
+.fecature-3 .fecature-bg{	background-image: url(../img/image.jpeg);}
+.fecature-4 .fecature-bg{	background-image: url(../img/Why-the-tech-enabled-workplace-tops-the-corporate-wish-list.jpg);}
+.single-fecature-item {
+    position: relative;
+    z-index: 1;
+}
+.fecature-bg {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.single-fecature-text {
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    padding: 50px;
+    position: relative;
+    padding-left: 120px;
+    border-bottom: 4px solid #FE5E3A;
+}
+body {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #636363;
+}
+.single-fecature-text h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+.feacture-no {
+    position: absolute;
+    left: 35px;
+    top: 12px;
+    font-size: 50px;
+    z-index: 1;
+    opacity: .4;
+    font-weight: 700;
+}
+.feacture-no:after {
+    right: -45px;
+    position: absolute;
+    top: 60px;
+    content: "";
+    height: 2px;
+    width: 130px;
+    background: #ddd;
+    transform: rotate(135deg);
+    z-index: -1;
+}
+.fecature-bg {
+    bottom: -50px;
+}
+.single-fecature-text:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.fecature-2 .single-fecature-text {border-color: #2BC893;}
+
+.fecature-3 .single-fecature-text { border-color: #B079F8;}
+.fecature-4 .single-fecature-text {border-color: #FFBB50;}
