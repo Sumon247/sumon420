@@ -1,0 +1,163 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.project-bg-01{background-image: url(../img/638149788.jpg);}
+.project-bg-02{background-image: url(../img/office.jpg);}
+.project-bg-03{background-image: url(../img/startup-593296_640.jpg);}
+.section-padding {
+    padding: 100px 0;
+}
+
+
+.single-project-item {
+    position: relative;
+    text-align: right;
+
+}
+
+.project-text {
+    width: 60%;
+    background: #FC6223;
+    color: #fff;
+    padding: 80px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 270px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 300;
+    margin-top: 150px;
+}
+
+.project-bg {
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border: 15px solid #FFf;
+    margin-left: -15px;
+}
+
+p.vewi-more-btn {
+    margin-top: 60px;
+}
+
+p.vewi-more-btn a {
+    color: #fff;
+}
+
+.project-text h3 {
+    margin-bottom: 40px;
+}
+
+.fectured-project-wrap {
+    position: relative;
+}
+
+.fectured-project-wrap h2 {
+    position: absolute;
+    right: 0;
+    width: 34%;
+    top: 23px;
+    font-weight: 300;
+}
+
+.fectured-project-wrap h2 span {
+    font-size: 50px;
+}
+
+.featured-project-wrap h2 span {font-size: 50px;}
+
+
+.featured-projects .owl-dots div:nth-child(1):before {
+    content: "01";
+}
+
+.featured-projects .owl-dots div:nth-child(02):before {
+    content: "02";
+}
+
+.featured-projects .owl-dots div:nth-child(3):before {
+    content: "03";
+}
+
+.featured-projects .owl-dots div {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: 20px;
+    opacity: .6;
+}
+.owl-carousel .single-project-item {
+    overflow: hidden;
+}
+
+.fectured-projects .owl-dots div:nth-child(1):before {
+    content: "01";
+}
+
+.fectured-projects .owl-dots div:nth-child(2):before {
+    content: "02";
+}
+
+.fectured-projects .owl-dots div:nth-child(3):before {
+    content: "03";
+}
+
+.fectured-projects .owl-dots div:nth-child(1):before {}
+
+.fectured-projects .owl-dots div {
+    font-size: 40px;
+    display: inline-block;
+    font-weight: 300;
+    margin-left: 30px;
+    opacity: .6;
+}
+
+.fectured-projects .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.fectured-projects .owl-dots div.active {
+    color: #FC6223;
+    opacity: .8;
+}
