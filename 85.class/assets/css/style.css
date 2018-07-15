@@ -1,0 +1,120 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.authore-bg-1{background-image: url(../img/Screenshot_1.png);}
+h2.testmonalil-title {
+    position: absolute;
+    left: auto;
+    top: 90px;
+    font-size: 71px;
+    z-index: 2;
+}
+
+.testimonial-wrap {
+    position: relative;
+}
+
+h2.testmonalil-title span {
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.9;
+    padding-top: 250px;
+    max-width: 40%;
+}
+
+.testimonial-author i.fa {
+    color: #C6A15B;
+    font-size: 30px;
+}
+
+.testimonial-author h3 {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.testimonial-author {
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.testimonial-authore-bg {
+    position: absolute;
+    right: -8%;
+    top: 0;
+    height: 100%;
+    width: 66%;
+    background-size: cover;
+    background-position: center top;
+   }
+
+.section-padding {
+    padding: 30px 0;
+}
+.single-testimonial-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.owl-carousel.testimonial-carosel {
+    width: 108%;
+}
+.testimonial-carosel .owl-nav div {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    line-height: 72px;
+}
+.testimonial-carosel .owl-nav div:first-child {
+    background: #C7A05B;
+    color: #fff;
+}
+.testimonial-carosel .owl-nav div:hover {
+    background: #ccc ;
+    color: #C7A05B;
+}
+.testimonial-carosel .owl-nav {
+    text-align: center;
+    padding-right: 16%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
