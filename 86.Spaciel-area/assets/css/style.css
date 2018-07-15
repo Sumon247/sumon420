@@ -1,0 +1,109 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	line-height:1.8;
+     color: #888282;
+    font-size: 16px;
+    }
+a:hover { text-decoration: none }
+/* Base CSS */
+.styled-bg-01{background-image: url(../img/004-malibu-house-dutton-architects.jpg);}
+.styled-bg-02{background-image: url(../img/Calpine-Drive-Interior-Designer.jpg);}
+.styled-bd-inner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.styled-bg {
+    height: 570px;
+    position: relative;
+    z-index: 2;
+    margin-left: -85px;
+    margin-bottom: 120px;
+}
+.styled-bg:after {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #F4F4F4;
+    z-index: -1;
+}
+.styled-bg:before {
+    position: absolute;
+    left: 70%;
+    bottom: -70px;
+    height: 110px;
+    width: 3px;
+    content: "";
+    background: #C0A753;
+}
+h2.spacile-area-text {
+    position: relative;
+    z-index: 3;
+    background: #fff;
+    margin-left: -180px;
+    margin-top: 50px;
+    padding: 30px 40px;
+    font-size: 60px;
+    color: #333;
+}
+body {
+   
+}
+a.border-bottom-btn {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 3px solid #C0A753;
+}
+.right-side .styled-bg {
+    margin-left: 0;
+    margin-right: -85px;
+}
+.right-side .styled-bg:after {
+    right: auto;
+    left: 30px;
+}
+.right-side .styled-bg:before {
+    left: 30%;
+}
+.right-side h2.spacile-area-text {
+    margin-right: -180px;
+    margin-left: auto;
+   
+}
+.spacile-area {
+    padding: 50px 0;
+}
