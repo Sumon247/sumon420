@@ -1,0 +1,118 @@
+/* Base CSS */
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-family: 'Asiyah Script';
+    font-weight: normal;
+
+}
+html, body{
+    height: 100%;
+}
+body {
+    font-family: 'Source Serif Pro', serif;  
+    font-size:14px;
+    line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.single-travel-bg-01{background-image: url(../img/Los-Cabos-Mexico-DECGO0516.jpg);}
+.single-travel-bg-02{background-image: url(../img/boracay.jpg);}
+.single-travel-bg-03{background-image: url(../img/Mesa-Arch-original.jpg);}
+.single-travel-item {
+    height: 100%;
+    display: table;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+}
+
+.single-travel-tabelcell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.single-travel-tabelcell h1 {
+    font-size: 160px;
+    margin-bottom: 0;
+}
+
+.boxed-btn {
+    color: #fff;
+    background: #D8085E;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.single-travel-tabelcell p {
+    margin-bottom: 40px;
+}
+.single-travel-item:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    content: ""; 
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+.travel-area,.travel-area div {
+    height: 100%;
+}
+
+.travel-area div.single-travel-tabelcell, .travel-area div.single-travel-tabelcell div, .travel-area div.owl-nav, .travel-area div.owl-nav div, .travel-area div.owl-dots, .travel-area div.owl-dots div,.travel-area .owl-controls {
+    height: auto;
+}
+
+.travel-area .owl-nav div {
+    position: absolute;
+    left: 50px;
+    TOP: 50%;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+}
+
+.travel-area .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
