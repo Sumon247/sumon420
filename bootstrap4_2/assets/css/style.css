@@ -1,0 +1,95 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.header-top,.header-top a {
+    background: #0b0b0b;
+    color: #f5f3f3;
+}
+.header-top i {
+    color: #fc721e;
+    padding-right: 8px;
+}
+.social-link a {
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    border: 1px solid #f5f3f3;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 7px;
+}
+.social-link i {
+    color: #f5f3f3;
+    padding-right: 0;
+}
+.social-link {
+    display: inline-block;
+    padding-left: 25px;
+}
+.social-link a:hover {
+    background: #fc721e;
+    border: 1px solid #fc721e;
+}
+.header-top i.fas.fa-phone {padding-left: 30px;}
+.header-top {
+    padding: 13px 0;
+}
+.header-area, .header-area a {
+    text-transform: uppercase;
+    color: #0b0b0b;
+}
+.site-logo {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #0b0b0b;
+    padding: 15px 20px;
+    margin-bottom: 0;
+}
+.mainmanu ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+}
+.mainmanu li {
+    display: inline-block;
+}
+.mainmanu li a {
+    display: block;
+    padding: 10px 15px;
+    font-weight: 800;
+    border: 1px solid transparent;
+}
+.mainmanu li:hover> a {
+    border-color: #fc721e;
+}
+.header-area {
+    padding: 18px 0;
+}
