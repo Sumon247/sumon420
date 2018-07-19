@@ -472,6 +472,7 @@ span.icon-bg {
     height: 100px;
     width: 100%;
     content: "";
+    background-size: 100% 100%;
 }
 .footer-area p {
     padding-top: 10px;
