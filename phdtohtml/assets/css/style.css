@@ -1,0 +1,538 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Source+Sans+Pro:200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+/*header & Manu Css Start*/
+.hore-area-bg{background-image: url(../img/horo-img.jpg);}
+.hore-area-bg:after{background-image: url(../img/hero-shader.png);}
+.mainmanu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmanu li {
+    display: inline-block;
+}
+
+.mainmanu li a {
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo {
+    margin: 9px 0;
+}
+
+.hore-area-bg {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 770px;
+    color: #fff;
+    z-index: 1;
+    font-size: 20px;
+    background-position: center;
+    background-color: #ddd;
+    background-size: cover;
+}
+.hore-area-bg:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    content: "";
+    background-size: 100% 100%;
+    z-index: 2;
+}
+.hero-area {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.hero-area h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #0f355c;
+    z-index: -1;
+    opacity: .75;
+   
+}
+
+a.boxed-btn {
+    background: #6FED8D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #0F355C;
+    border: 1px solid #;
+}
+
+.hero-area p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+header.site-header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+header.site-header:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .4;
+}
+/*header & Manu Css End*/
+/*about area Start*/
+.single-about-img{
+    background-image: url(..//img/about-img.jpg);
+}
+.section-about {
+    padding:80px 0;
+
+}
+h2.section-header {
+    color: #0F355C;
+    margin-bottom: 40px;
+    font-size: 32px;
+    position: relative;
+    padding-top: 15px;
+}
+.single-about-area h4 {
+    color: #FFC61B;
+    font-size: 20px;
+}
+.single-about-area p {
+    color: #54687D;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.single-about-img {
+    position: relative;
+    height: 301px;
+    width: 470px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    /* z-index: 1; */
+}
+.single-about-img:after {
+    position: absolute;
+    bottom: -30px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #6FED8D;
+    z-index: -1;
+    border-radius: 10px;
+    left: -30px;
+}
+h2.section-header:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 5px;
+    width: 60px;
+    content: "";
+    background: #6FED8D;
+    border-radius: 15px;
+}
+/*about area end*/
+/*Our School area start*/
+.single-progam-icon {
+    display: block;
+    color: #997fff;
+    background-color: #efebff;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    min-height: 160px;
+    font-size: 18px;
+}
+span.icon-bg {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 50px;
+    line-height: 65px;
+}
+.section-about-bg {
+    background: #fafafa;
+    padding: 60px 40px;
+    margin-bottom: 50px;
+    }
+.col-lg-4:nth-child(2) .single-progam-icon {
+    color: #ff937f;
+    background: #ffeeeb;
+}
+.col-lg-4:nth-child(3) .single-progam-icon {
+    color: #7ebdfc;
+    background: #e8f2fc;
+}
+.col-lg-4:nth-child(4) .single-progam-icon {
+    color: #ff7fb2;
+    background: #ffebf3;
+}
+.col-lg-4:nth-child(5) .single-progam-icon {
+    color: #6ad0d4;
+    background: #dbf9fa;
+}
+.col-lg-4:nth-child(6) .single-progam-icon {
+    color: #83d46a;
+    background: #e9f9e4;
+}
+.col-lg-4:nth-child(7) .single-progam-icon {
+    color: #f93c3c;
+    background: #f5d6d6;
+}
+.col-lg-4:nth-child(8) .single-progam-icon {
+    color: #fa07f7;
+    background: #fabef9;
+}
+
+.col-lg-4:nth-child(9) .single-progam-icon {
+    color: #f42626;
+    background: #fdd1d1;
+}
+
+.col-lg-4:nth-child(10) .single-progam-icon {
+    color: #fdd1d1;
+    background: #b2f9ba;
+}
+
+.col-lg-4:nth-child(11) .single-progam-icon {
+    color: #f7ba08;
+    background: #f9ebc2;
+}
+.col-lg-4:nth-child(12) .single-progam-icon {
+    color: #f70aa6;
+    background: #fab6e3;
+}
+
+/*Our School area End*/
+/*our Facrilities start*/
+.facilities-bg-01{background-image: url(../img/library.png);}
+.facilities-bg-02{background-image: url(../img/cafeteria.png);}
+.facilities-bg-03{background-image: url(../img/sports.png);}
+.facilities-bg-04{background-image: url(../img/travels.png);}
+.our-facrilities {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.facilities-bg {
+    height: 139px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.single-facilities-box {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    background: #6FED8D;
+    border-radius: 10px;
+    margin-bottom: 30px;}
+.our-facrilities .single-facilities-box:nth-child(2) {
+    background: #ffcf40;
+}
+
+.single-facilities-box p {
+    padding: 10px 0;
+}
+.box-space-60 {
+    height: 60px;
+}
+/*our Facrilities end*/
+/*Admission-area Start Css*/
+.admission-bd{background-image: url(../img/admission-child-bg.jpg);}
+.section-about.dark-bg {
+    background: #0f355c;
+    position: relative;
+}
+.section-about.dark-bg h2, .section-about.dark-bg p {
+    color: #fff;
+}
+.admission-bd {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border-radius: 15px 0 0 15px;
+}
+.section-about.dark-bg .single-about-area {
+    padding-bottom: 60px;
+}
+/*Admission-area End Css*/
+/*Campous-area Start Css*/
+.gallery-bg-01{background-image: url(../img/campaus-bg-01.jpg);}
+.gallery-bg-02{background-image: url(../img/campaus-bg-02.jpg);}
+.gallery-bg-03{background-image: url(../img/campaus-bg-03.jpg);}
+.section-about.margin-80 {
+    margin: 80px 0;
+}
+.section-margin-top {
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.gallery-bg-item {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: inline-block;
+}
+.gallery-bg-item.gallery-bg-02 {
+    height: 450px;
+    width: 350px;
+    margin-top: 50px;
+}
+.gallery-bg-item.gallery-bg-01 {
+    position: absolute;
+    left: 70px;
+    top: 0;
+    height: 200px;
+    width: 200px;
+}
+.gallery-bg-item.gallery-bg-03 {
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    height: 200px;
+    width: 350px;
+    
+}
+.video-play-btn i {
+    font-size: 60px;
+    display: inline-block;
+    position:absolute;
+    left:0;
+}
+.video-play-btn {
+    display: block;
+    position:relative;
+    font-size: 20px;
+    color:#ffc61a;
+    padding-left:70px;
+    line-height:60px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+/*Campous-area End Css*/
+/*half-gray-area Start Css*/
+.section-about.half-gray-bg {
+    position: relative;
+}
+.section-about.half-gray-bg:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    background: #ebf2fa;
+}
+.boxed-cta h2 {margin-bottom: 30px;color: #0f355c;}
+.boxed-cta {
+    background: #6fed8d;
+    padding: 80px 70px;
+    text-align: center;
+}
+.boxed-cta .boxed-btn {
+    background: #0f355c;
+    color: #fff;
+    margin-top: 44px;
+}
+.boxed-cta p {
+    color: #54687d;
+}
+.boxed-cta.thame-2 {
+    background: #ffcf40;
+}
+.boxed-cta.thame-2 .boxed-btn {
+    color: #0f355c;
+    background: transparent;
+    border: 1px solid #0f355c;
+    padding: 9px 28px;
+}
+/*half-gray-area End Css*/
+/*Event-area start Css*/
+.event-bg-01{background-image: url(../img/event-bg-01.png);}
+.event-bg-02{background-image: url(../img/event-bg-02.png);}
+.event-bg-03{background-image: url(../img/event-bg-03.png);}
+.event-bg-04{background-image: url(../img/event-bg-04.png);}
+
+.section-about.gray-bg {
+    background: #ebf2fa;
+}
+.section-header.text-center:after {
+    left: 50%;
+    margin-left: -30px;
+}
+.single-event-list {
+    position: relative;
+    min-height: 180px;
+    background: #fff;
+    border-radius: 10px;
+    padding-left: 240px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.event-bg {
+    position: absolute;
+    height: 100%;
+    width: 210px;
+    left: 0;
+    top: 0;
+    border-radius: 10px 0 0 10px;
+}
+.single-event-list,.single-event-list a {
+    color: #54687d;
+}
+.event-list h4 {
+    font-size: 20px;
+}
+.single-event-list a:hover {
+    color: #29eb7f;
+}
+/*Event-area start Css*/
+/* foooter-area Start Css*/
+.footer-area:after{background-image: url(../img/footer-top-bg.png);}
+.footer-area {
+    position: relative;
+}
+.footer-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    content: "";
+    background-size: 100% 100%;
+}
+.footer-area p {
+    padding-top: 10px;
+}
+.footer-area .logo {
+    padding-bottom: 25px;
+}
+.section-about.footer-area {
+    padding-bottom: 0;
+}
+.footer-area, .footer-area a {
+    color: #54687d;
+    font-size: 18px;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-wid li {
+    margin-top: 20px;
+}
+p.content-text {
+    position: relative;
+    left: 0;
+    padding-left: 30px;
+}
+
+p.content-text i {
+    padding-top: 7px;
+    position: absolute;
+    left: 0;
+}
+.copyright-area li {
+    display: inline-block;
+}
+
+.copyright-area {
+    border-top: 2px solid #ebf2fa;
+    line-height: 40px;
+}
+
+.copyright-area li a {
+    display: block;
+    width: 40px;
+    background: #ebf2fa;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.footer-area .row {
+    padding: 40px 0;
+}
+
+.copyright-area li a:hover {
+    background: #6fed8d;
+}
+/* foooter-area Start Css*/
