@@ -1,0 +1,102 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.single-box-bg-01{background-image: url(../img/3d-printed-house-milan-design-week_dezeen_hero-852x479.jpg);}
+.single-box-bg-02{background-image: url(../img/download.jpg);}
+.single-box-bg-03{background-image: url(../img/images.jpg);}
+.single-box-bg-04{background-image: url(../img/Print-House-06.jpg);}
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-box {
+    height: 250px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.single-box-hover h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.boxed-btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    background: #FAB701;
+    padding: 10px 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-box-hover {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    transition: .3s;
+}
+
+.single-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    content: "";
+    opacity: .4;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.single-box:hover .single-box-hover {
+    bottom: 30px;
+}
+
+.single-box:hover .boxed-btn {
+    opacity: 1;
+    visibility: visible;
+}
