@@ -1,0 +1,84 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.service-bg-01{background-image: url(../img/3d-printed-house-milan-design-week_dezeen_hero-852x479.jpg);}
+.service-bg-02{background-image: url(../img/download.jpg);}
+.service-bg-03{background-image: url(../img/images.jpg);}
+.section-padding {
+    padding: 80px 0;
+}
+.service-bg {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.service-item-box {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+  }
+
+.service-text h3 {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.service-text p {
+    opacity: .6;
+    padding: 30px 15px;
+}
+
+a.boxed-btn {
+    color: #999;
+    font-weight: 600;
+    border: 2px solid #ddd;
+    padding: 10px 20px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    margin-left: -20%;
+}
+
+.service-text {
+    position: relative;
+}
+
+a.boxed-btn:hover {
+    color: #333;
+}
