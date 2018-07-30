@@ -107,6 +107,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10b6a7', end
     margin-top: 160px;
     display: inline-block;
 }
+.play-btn:hover {
+    color: #aaeae4;
+}
 .play-btn i {
     position: absolute;
     left: 50%;
